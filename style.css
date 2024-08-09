@@ -1,0 +1,334 @@
+
+body{
+    /* border: solid red; */
+    /* height:400px; */
+    background-color:black;
+    padding:25em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.Section1{
+    /* border:solid red; */
+    padding:2em;
+    display:flex;  
+    background-image: url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img{
+    height:100%;
+    width:100%;
+}
+.s1Box1{
+    /* width:100px; */
+}
+
+.s1Box2{
+    width:100px;
+    flex-wrap:wrap;
+    margin:1em;
+    color: rgb(237, 237, 237);
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Arial', sans-serif; /* Font for the list items */
+    font-weight: 500;
+}
+
+.H1{
+    color: black;
+    align-items: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    font-stretch: expanded;
+}
+#Sbox1{
+    /* border:solid blue; */
+    width:45%; 
+}
+
+#Sbox2{
+    /* border:solid rgb(50, 156, 104); */
+    width:40%;
+}
+
+#Sbox3{
+    /* border:solid rgb(53, 134, 205); */
+    width:60%;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+ul {
+    list-style-type:none; /* Remove bullets */
+    font-size: 20px;
+    font-style: italic;
+    font-display:bold;
+    color: aliceblue; 
+    text-align: left;
+    text-wrap: nowrap;
+    
+}
+
+a:link {
+    color: rgb(197, 202, 230);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  ul li {
+    margin-bottom:5px;
+    gap: 2rem;
+    text-wrap: nowrap;
+    text-decoration: none;
+}
+
+.Section2{
+    /* border:solid pink; */
+    color:aliceblue;
+    font-size:18px;
+    padding:1em;
+    display: flex;
+    background-image: url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Section3{
+    /* border:solid pink; */
+    color:aliceblue;
+    padding:1em;
+    padding-top: 0;
+    display: flex;
+    background-image: url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.S3Box1{
+    /* border:solid yellow; */
+    /* height:900px; */
+    width:60%;
+    padding:1em;
+}
+
+.S4Box1{
+    /* border:solid yellow; */
+    /* height:900px; */
+    width:40%;
+    padding:1em;
+}
+
+.TitleSec{
+    /* border:solid green; */
+    display:flex;
+    background-color: blueviolet;
+    text-wrap: nowrap;
+    height:30px;
+}
+
+.arrow{
+    /* border: solid black; */
+    height:30px;
+    width:30px;
+}
+
+.HeaderSec{
+    font-size: 22px;  
+    font-style: italic;
+}
+
+.workSec{
+    /* border:solid green; */
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding:.2em;
+}
+
+.EduTitle{
+    /* border:solid green; */
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding:.2em;
+    /* padding-top: 0;
+    padding-bottom: 0; */
+}
+
+
+#Wid1{
+    font-size: 17px;
+}
+
+/* .Desc{
+    font-size: 19px;
+} */
+
+.EduSec{
+    /* border:solid green; */
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding:.2em;
+    /* padding-bottom: 0; */
+}
+
+/* #Wid1{
+    font-size: 17px;
+} */
+
+.Desc{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.SecProgram
+{
+    /* border: solid green; */
+    padding :10px;
+    
+}
+
+.Language
+{
+    /* border: solid green; */
+    padding :10px;
+    padding-bottom: 0;
+}
+
+#file{
+        width: 50%;
+        margin-left: 3.5%;
+        height: 15px;
+        /* background-color: #2145bb;
+        box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 ); */
+        border-radius: 7px;
+       
+}
+
+.file1{
+    flex: 1; /* Allow the progress bar to take up available space */
+    height: 20px; /* Height of the progress bar */
+    -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    appearance: none; /* Remove default styling */
+    border-radius: 5px; /* Rounded corners for the progress bar */
+}
+
+.file1::-webkit-progress-bar {
+    background-color: #9a9f9f; /* Light gray background */
+}
+
+.skills{
+    font-size: 18px;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 24px; /* Adjust icon size */
+    color: #333; /* Icon color */
+}
+
+.status {
+    font-family: 'Arial', sans-serif; /* Font for the list items */
+    font-size: 16px; /* Font size */
+    color:rgb(247, 234, 234); /* Text color */
+    /* margin-bottom: 15px; Space between items */
+    display: flex; /* Flexbox to align icon and text */
+    align-items: center; /* Center items vertically */
+}
+
+
+.tooltip {
+    background-color: #39cfd7;
+    /* color: #bd1616; */
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+/* Ensure the skills section is visible by default
+#programming-skills {
+    display: block;
+    transition: display 0.3s ease;
+}
+
+#programming-skills.hidden {
+    display: none;
+}
+
+/* Style for the toggle image */
+/* #toggle-skills {
+    cursor: pointer;
+} */ */
+
+
+/* Initially hide the skills section */
+#programming-skills {
+    display: none; /* Hide by default */
+}
+
+/* Optional: Add styles for transitions */
+#programming-skills {
+    transition: opacity 0.3s ease;
+}
+
+/* Style for the toggle image */
+#toggle-skills {
+    cursor: pointer;
+}
+
+.button_close{
+    background-color: #39cfd7;
+    align-items: center;
+    display: flex;
+    /* margin-left: 18em; */
+    justify-content: space-evenly;
+    background-image: url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* General button styling */
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it an inline-block element */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Button active (pressed) effect */
+button:active {
+    background-color: #3e8e41; /* Even darker green */
+    transform: scale(0.98); /* Slightly shrink the button */
+}
